@@ -163,6 +163,9 @@ public class InventoryRepository {
 		inventory.addPart(part);
 		writeAll();
 	}
+	public void addPart2(Part part){
+		inventory.addPart(part);
+	}
 
 	public void addProduct(Product product){
 		inventory.addProduct(product);
@@ -206,6 +209,10 @@ public class InventoryRepository {
 	public void deletePart(Part part){
 		inventory.deletePart(part);
 		writeAll();
+	}
+
+	public void deletePart2(Part part){
+		inventory.deletePart(part);
 	}
 
 	public void deleteProduct(Product product){

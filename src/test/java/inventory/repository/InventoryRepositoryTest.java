@@ -23,6 +23,7 @@ class InventoryRepositoryTest {
         InventoryRepository i=new InventoryRepository();
         i.addPart(p);
         assert i.lookupPart("TestName3v4")==null;
+        
         i.deletePart(p);
     }
 }
